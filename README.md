@@ -1,2 +1,7 @@
 # Covid-Project
-The project is based on 2020/2021 covid data. 
+This project is based on 2020/2021 Covid data, sourced from 'Our World In Data' (https://ourworldindata.org/covid-deaths). The major techniques used for data acquisition are SQL, Data scraping and Excel.
+After data acquisition, I engaged in Data cleaning, considering that some values were missing, while some were 'null'. Data cleaning was pertinent so as to avoid incoherent results and prevent ambiguity.
+Data manipulation was used to convert data to different data types, for clarity. For example, some varchar variables had to be converted to int(s), so they could be aggregated(sum, maximum, minimum, etc).
+The main challenge encountered in this project was the issue of missing values. Considering the pattern in the available data, and the dates, it was unlikely that within a certain period, there were no existing cases in given localities. Since there were records of covid deaths, surely there were cases albeit not recorded.
+If it were a different kind of data set readily available, I would have opted for more details(records) from the primary(local) data source, to ensure that the missing values were included. Nonetheless, considering it's big data, issues like the aforementioned are to be expected.
+In conclusion, this Covid project indicates the spread of the virus, showing how it started with small numbers and then the rapid spread. It takes into details, the areas greatly affected and those least affected. Also showing the numbers across the globe as well as in different countries. With visualization (Power BI or tableau), we can bring in scatter plots or tree maps to simplify the occurrences of these cases across vast locations.
